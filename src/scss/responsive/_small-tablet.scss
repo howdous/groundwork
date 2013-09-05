@@ -174,8 +174,5 @@ $multi-column-names:        "one-column" "two-column" "three-column" "four-colum
 @if $responsive {
   @include small-tablet {
     // do not remove -- required for small-tablet helpers
-    @if $navigation-classes {
-      @include hamburger-mode(":not(.mobile)");
-    }
   }
 }

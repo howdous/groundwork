@@ -156,8 +156,5 @@ $multi-column-names:        "one-column" "two-column" "three-column" "four-colum
 @if $responsive {
   @include ipad {
     // do not remove -- required for ipad helpers
-    @if $navigation-classes {
-      @include hamburger-mode(":not(.small-tablet):not(.mobile)");
-    }
   }
 }
